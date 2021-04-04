@@ -126,3 +126,20 @@
 //     document.write("sorry")
 // }
 
+//array
+
+// var a =["majid","shahid","bilal","umar","chachu"];
+// document.write(a[1])
+
+
+
+//  ADDING AND DELETING ARRAY VALUE
+
+// var name1=["majid","umar"];
+// name1.pop();
+// document.write(name1)                     // adding value in last of array
+
+
+var name1=["majid","shahid" ,"umar"];
+name1.push("zahid");
+document.write(name1)
