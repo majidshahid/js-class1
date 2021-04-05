@@ -135,11 +135,51 @@
 
 //  ADDING AND DELETING ARRAY VALUE
 
-// var name1=["majid","umar"];
+// var name1=["majid","umar"];        // deleting value in last of array
 // name1.pop();
-// document.write(name1)                     // adding value in last of array
+// document.write(name1)                    
 
 
-var name1=["majid","shahid" ,"umar"];
-name1.push("zahid");
-document.write(name1)
+// var name1=["majid","shahid" ,"umar"];  // adding value in last of array
+// name1.push("zahid");
+// document.write(name1)
+                                   // deleting value in last of array;
+
+    //  var a =["majid","shahid"]  ;    // deleting value in start of array
+    //  a.shift();
+    //  document.write(a)
+    
+
+    // var a =["majid","shahid"];         // adding value in start of array
+    // a.unshift("umar");
+    // document.write(a)
+
+
+
+
+               // slice copy index in one are and paste another array
+    // var a =["majid","shahid","umar"];
+    // var b =a.slice(0,2);
+    // document.write(b);
+
+
+    // splice  first value (starting number) second number (kha tk delet krna hai ) third ("jo b value dani hai ");
+
+
+    // var a =["majid ","umar ","bilal",];
+    // a.splice(1,0,"shahid")
+    // document.write(a)
+
+
+        //    for loop
+
+//         var a=+prompt("enter your value");
+//         var i;
+//         for (i=1;i<=10;i++){
+// document.write(  a +"x"+i+"=" + a*i +"<br>")
+//         }
+
+// for (var i=0;i<=2000;i++){
+//     console.log(i)
+// }
+       
