@@ -66,7 +66,7 @@
 // document.write(b)
 
 // Post decrement
- 
+
 // var a =10;
 // var b = 1;
 // var c = b + --a 
@@ -80,10 +80,10 @@
 
 
 //prompt
-        // for string 
+// for string 
 // var a =prompt("enter your value")
 // document.write(a)
-    //   for interger 
+//   for interger 
 // var a =+prompt("enter your number");
 // var b =+prompt("enter your second Number");
 // document.write(a+b)
@@ -143,35 +143,35 @@
 // var name1=["majid","shahid" ,"umar"];  // adding value in last of array
 // name1.push("zahid");
 // document.write(name1)
-                                   // deleting value in last of array;
+// deleting value in last of array;
 
-    //  var a =["majid","shahid"]  ;    // deleting value in start of array
-    //  a.shift();
-    //  document.write(a)
-    
-
-    // var a =["majid","shahid"];         // adding value in start of array
-    // a.unshift("umar");
-    // document.write(a)
+//  var a =["majid","shahid"]  ;    // deleting value in start of array
+//  a.shift();
+//  document.write(a)
 
 
+// var a =["majid","shahid"];         // adding value in start of array
+// a.unshift("umar");
+// document.write(a)
 
 
-               // slice copy index in one are and paste another array
-    // var a =["majid","shahid","umar"];
-    // var b =a.slice(0,2);
-    // document.write(b);
 
 
-    // splice  first value (starting number) second number (kha tk delet krna hai ) third ("jo b value dani hai ");
+// slice copy index in one are and paste another array
+// var a =["majid","shahid","umar"];
+// var b =a.slice(0,2);
+// document.write(b);
 
 
-    // var a =["majid ","umar ","bilal",];
-    // a.splice(1,0,"shahid")
-    // document.write(a)
+// splice  first value (starting number) second number (kha tk delet krna hai ) third ("jo b value dani hai ");
 
 
-        //    for loop
+// var a =["majid ","umar ","bilal",];
+// a.splice(1,0,"shahid")
+// document.write(a)
+
+
+//    for loop
 
 //         var a=+prompt("enter your value");
 //         var i;
@@ -182,4 +182,89 @@
 // for (var i=0;i<=2000;i++){
 //     console.log(i)
 // }
-       
+
+
+// var names=99;
+// var num =7;
+// if (names <=100&&num==3){
+//     alert("Ok")
+// }else{
+//     alert("not")
+// }
+
+
+// to lower case
+
+// var b = prompt("enter your name ");
+// var a =b.toLowerCase();
+// if (a=="majid"){
+//     alert("majid is here")
+// }else{
+//     alert(a +" is not here")
+// }
+
+//    to UPPER CASE
+
+// var a =prompt("enter your name")
+// var b=a.toUpperCase();
+// if (b == "UMAR"){
+//     alert("umar is here")
+// }else{
+//     alert("enter name is not right")
+// }
+
+
+
+//  lenght of array
+
+// var a =["majid","shahid","uamr","bilal"];
+// var b = a.length;
+// console.log(b)
+
+//   length of string 
+
+// var a = "majid";
+// var b = a.length;
+// console.log(b)
+
+//  indexof of array
+
+
+// var a = ["majid", "shahid", "umar", "bilal"];
+// var b = a.indexOf("umar");
+// console.log(b)
+
+//  indexof of string
+
+// var a = "majid";
+// var b = a.indexOf("d");
+// console.log(b)
+
+
+
+// last indexof
+            // last ma jo a hai wo konsa index pr hai wo pta krna hai 
+// var a = "sadad";
+// var   b =a.lastIndexOf("a");
+// console.log(b)
+
+
+// var a =["majid","shahid","uamr","majid","zahid","bilal"];
+// var b  =a.lastIndexOf("majid");
+// var c = a.indexOf("shahid");
+// console.log(b,c)
+
+
+// practice
+
+// var city =["karachi","islamabad","lahore","peshawar"];
+// var input =prompt("enter your city name ");
+// input = input.toLowerCase();
+// for (var  i=0;i<city.length;i++){
+//     if (input ==  city [i]){
+//         alert ("city is found")
+//     }else {
+//         alert ("city is not found")
+//     }
+  
+// }
