@@ -268,3 +268,59 @@
 //     }
   
 // }
+    //   replace 
+    // first one word
+// var a ="this is the world war 2";
+// var b =a.replace("world","duniya")
+// console.log(a);
+// console.log(b)
+    //    all word is this var
+// var a = "this is the blue color and background color is also blue";
+// var b = a.replace(/blue/g,"black")
+// console.log(a)
+// console.log(b)
+
+
+
+    // MATH EXPRESION
+            //  Math.round
+    // var a =1.3;
+    // var b =1.7;
+    // var round =Math.round(a);
+    // var round2 =Math.round(b);
+
+    // console.log(round,round2)
+                //  Math.cail   forword number lay ga
+    //   var a = 5.1
+    //   var ceil=Math.ceil(a);
+    //   console.log(ceil)
+                //  Math.floor   backword number lay ga 
+// var a=5.9;
+// var floor =Math.floor(a);
+// console.log(floor)
+        //   MATH RENDOM
+        // var a= Math.random();
+        // console.log(a)
+
+
+
+
+    //   head tail Game
+
+
+    // var player1=prompt("Enter your name ","HEAD");
+    // var player2=prompt("Enter your name ","TAIL");
+   
+    // var a = Math.random();
+    // var num =Math.ceil(a*2);
+    // if (num ==1){
+    //     document.write( player1+" is win")
+    // }else {
+    //     document.write(player2+" is win")
+    // }
+ 
+            
+
+
+
+
