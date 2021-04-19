@@ -321,6 +321,23 @@
  
             
 
+//  var new1 = new Date()
+// console.log(new1)
+//  var a = new1.splice(0,3)
+//  console.log(a);
 
 
+     // this function is used
 
+    //  toDateString()
+    //  getDate()
+    //  getFullYear()
+    //  getMonth()
+    //  getDay()
+    //  getHours()
+    //  getMinutes()
+    //  getSeconds()
+    //  getMilliseconds()
+    //  var a =setDate('apr 2,1900');
+//        var b = a.getHours()
+// console.log(b)
