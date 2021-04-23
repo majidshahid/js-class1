@@ -393,3 +393,34 @@
 
 // var a =per()
 // document.write(a+" "+ "%")
+
+// function majid(a,b){
+//     var one = a+b
+//     return one
+// }
+// document.write(majid(3,4))
+// document.write(majid(10,40))
+
+
+// var a = new Date();
+// var c =a.toString()
+// var b =c.slice(0,3)
+// console.log(b)
+// var month =a.getMonth()
+// console.log(month)
+
+
+// var one = new Date();
+// var two = one.toString();
+// var three = two.slice(0,3)
+// console.log(three)
+
+
+// var a = new Date("apr 3,2000")
+// console.log(a)
+
+var  a = 1;
+switch(a){
+    case 1 :
+    alert("ok")
+}
