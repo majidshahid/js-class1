@@ -419,8 +419,32 @@
 // var a = new Date("apr 3,2000")
 // console.log(a)
 
-var  a = 1;
-switch(a){
-    case 1 :
-    alert("ok")
-}
+// var  a = 1;
+// switch(a){
+//     case 1 :
+//     alert("ok")
+//     case 3:
+        
+// }
+// var firstvalue = +prompt("Enter your first value")
+// var sign = prompt("sign");
+// var secondvalue =+prompt("Enter your second value") ;
+
+
+// switch(sign){
+//     case "+" :
+//       document.write(firstvalue+secondvalue)
+//       break
+//     case "-":
+//         document.write(firstvalue-secondvalue)
+//         break
+//         case "/":
+//             document.write(firstvalue/secondvalue)
+//             break
+//             case "*":
+//                 document.write(firstvalue*secondvalue)
+//                 break
+//                 case "%":
+//                     document.write(firstvalue%secondvalue)
+//                     break
+//             }
