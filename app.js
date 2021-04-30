@@ -448,3 +448,25 @@
 //                     document.write(firstvalue%secondvalue)
 //                     break
 //             }
+
+
+
+
+
+
+// var text = "this is the world war 2";
+// var a =text.replace("war 2","war two")
+// console.log(a)
+
+function clr() {
+    document.getElementById("input").value="";
+    
+    }
+    function num  (a){
+    document.getElementById("input").value += a;
+    }
+    function ans(){
+        var a = document.getElementById("input").value;
+        var b =eval(a);
+        document.getElementById("input").value=b;
+    }
