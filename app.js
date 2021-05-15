@@ -458,15 +458,35 @@
 // var a =text.replace("war 2","war two")
 // console.log(a)
 
-function clr() {
-    document.getElementById("input").value="";
+// function clr() {
+//     document.getElementById("input").value="";
     
-    }
-    function num  (a){
-    document.getElementById("input").value += a;
-    }
-    function ans(){
-        var a = document.getElementById("input").value;
-        var b =eval(a);
-        document.getElementById("input").value=b;
-    }
+//     }
+//     function num  (a){
+//     document.getElementById("input").value += a;
+//     }
+//     function ans(){
+//         var a = document.getElementById("input").value;
+//         var b =eval(a);
+//         document.getElementById("input").value=b;
+//     }
+
+
+var  a ="majid";
+console.log(a);
+a='';
+console.log(a);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
