@@ -472,14 +472,20 @@
 //     }
 
 
-var  a ="majid";
-console.log(a);
-a='';
-console.log(a);
+// var  a ="majid";
+// console.log(a);
+// a='';
+// console.log(a);
 
 
+// var a = "123";
+// var b = 123;
+// console.log(a+b)
 
 
+// var a = "majid";
+// a.length()=0;
+// console.log(a)
 
 
 
